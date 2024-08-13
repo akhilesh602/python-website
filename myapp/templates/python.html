@@ -1,0 +1,165 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+
+	<style type="text/css">
+		body
+		{background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-56228.jpg?size=626&ext=jpg&ga=GA1.1.1461932329.1712986184&semt=ais_hybrid);background-size: 100% 100%;background-position: 0px 0px;background-repeat: no-repeat;background-attachment: fixed;}
+		p {
+			color: rosybrown;
+			font-family: Arial;
+			font-size: 25px;
+		}
+
+		li{
+			color: red;
+		}
+
+		h2{
+			color: mistyrose;
+		}
+
+		h1{
+			color: mistyrose;
+		} 
+
+	</style>
+	
+	<title>LearnPython</title>
+</head>
+<body>
+
+	<h1 style="color: yellowgreen;" align="center">Learn Python</h1>
+
+	    <marquee   height=60px  onmouseover="this.stop()" onmouseout="this.start()"><h2 style="color: red;"> Welcome to Learn Python. Here you can learn as a beginner </h2> </marquee>
+		<h1 style="color: royalblue;"><strong>What is Python</strong></h1>
+	    <p><i>Python is a dynamically typed, General Purpose Programming Language that supports an object-oriented programming approach as well as a functional programming approach. Python is also an interpreted and high-level programming language. It was created by Guido Van Rossum in 1991.</i></p>
+
+	    <h1 style="color: royalblue;"><strong>What is Programming language</strong></h1>
+	    <p><i>A programming language is a computer language that is used by programmers (developers) to communicate with computers. It is a set of instructions written in any specific language ( C, C++, Java, Python) to perform a specific task.<br>A programming language is mainly used to develop desktop applications, websites, and mobile applications.</i></p>
+
+	    <h1 style="color: royalblue;"><strong> What are the features of Python </strong></h1>
+	    <p><i> Features of python are </i></p>
+	    <ul>
+	    	<li style="color:red"><i>Free and Open Source</i></li>
+	    	<li style="color:red"><i>Simple</i></li>
+	    	<li style="color:red"><i>Machine Learning</i></li>
+	    	<li style="color:red"><i>Data Science</i></li>
+	    	<li style="color:red"><i>GUI (Graphical User Interface)</i></li>
+	    </ul>
+	    <br>
+	    <br>
+	    <h1 style="color: rosybrown; background-color: mistyrose; " align="center" ><i> Keywords</i></h1>
+	<p style="font-size: 20px; word-spacing: 8px;"><i> Keywords are reserved words use for programming. We cannot use Keywords as variable name, block name, function name or any class name. Python have 35 keywords.<br>"Main keywords are"</i></p>
+	<ul>
+		<li>as</li>
+		<li>assert</li>
+		<li>class</li>
+		<li>continue</li>
+		<li>def</li>
+		<li>del</li>
+		<li>except</li>
+		<li>import</li>
+		<li>break</li>
+		<li>pass</li>
+		<li>in</li>
+		<li>next</li>
+		<li>return</li>
+		<li>try</li>
+		<li>finally</li>
+		<li>if</li>
+		<li>for</li>
+		<li>elif</li>
+		<li>yield</li>
+		<li>else</li>
+	</ul>
+	<img src="{% static '/images/key1.png' %}" alt="Image not loaded" style="position: absolute; left: 120px; top: 1000px;"><br><br>
+	<img src="{% static '/images/key2.png' %}" alt="Image not loaded" style="position: absolute; left: 920px; top: 1000px;">
+	<br>
+	<br>
+	<h1 style="color: rosybrown; background-color: mistyrose; " align="center" ><i> Comments in Python</i></h1>
+	<p style="font-size: 20px; word-spacing: 8px;"><i>Comments are line which ignore by the program. These are used to give information.<br>Comments enhance the readability of the code and help the programmers to understand the code very carefully. It also helps in collaborating with other developers as adding comments makes it easier to explain the code.</i></p>
+	<h1><i>Types of Python in Comments</i></h1>
+	<p><i>There are two types of comments</i></p>
+	<ul>
+		<li style="color:red;">Single line Comment</li>
+		<li style="color:red;">Multiple line comments</li>
+	</ul>
+	<h1>Single line commemt</h1>
+	<ul>
+		<li style="font-size: 20px; word-spacing: 8px;">Python single-line comment starts with the hashtag symbol (#) with no white spaces and lasts till the end of the line</li>
+		<li style="font-size: 20px; word-spacing: 8px;">If the comment exceeds one line then put a hashtag on the next line and continue the Python Comment.</li>
+		<li style="font-size: 20px; word-spacing: 8px;">Python’s single-line comments are proved useful for supplying short explanations for variables, function declarations, and expressions</li>
+	</ul>
+	<img src="{% static '/images/com1.jpg' %}" alt="Image not loaded" >
+	<h1>Multiline Comments using string literals</h1>
+	<p style="font-size: 20px; word-spacing: 8px;"><i>Python ignores the string literals that are not assigned to a variable so we can use these string literals as Python Comments.</i></p>
+	<img src="{% static '/images/com2.png' %}" alt="Image not loaded" >
+	<br>
+	<br>
+	    <h1 style="color: rosybrown; background-color: mistyrose; " align="center" ><i> Variables and Data types</i></h1>
+	<p style="font-size: 20px; word-spacing: 8px;"> <i>Variable are memory location to input the value when we run the program. Every value has a unique name and a data type. Python has no command for declaring a variable</i></p>
+	<ul style="color:royalblue;"><strong>"Rules for variable name"</strong><br> 
+		<li style="font-size: 20px; word-spacing: 8px; color: red;"> Must start with alphabet</li>
+		<li style="font-size: 20px; word-spacing: 8px; color: red;"> Can't start with number</li>
+		<li style="font-size: 20px; word-spacing: 8px; color: red;"> Can't be a keyword</li>
+		<li style="font-size: 20px; word-spacing: 8px; color: red;"> Case sensitive</li>
+	</ul>
+	<img src="{% static '/images/var1.png' %}" alt="Image not loaded">
+	<h1>Data types</h1>
+	<p style="font-size: 20px; word-spacing: 8px;"> the type of value a variable has and what type of mathematical, relational or logical operations can be applied without causing an error.</p>
+	<ul style="color:royalblue;"><strong>"Data types with Python"</strong><br> 
+		<li style="font-size: 20px; color: red;"> Number</li>
+		<li style="font-size: 20px; color: red;"> Float</li>
+		<li style="font-size: 20px; color: red;"> Boolean</li>
+		<li style="font-size: 20px; color: red;"> String</li>
+		<li style="font-size: 20px; color: red;"> List</li>
+		<li style="font-size: 20px; color: red;"> Tuple</li>
+		<li style="font-size: 20px; color: red;"> Dicitionary</li>
+		<li style="font-size: 20px; color: red;"> Set</li>
+	</ul>
+
+	<h1 style="color: rosybrown; background-color: mistyrose; " align="center" ><i> Operators</i></h1>
+	<h2>Python Operator</h2>
+	<p style="font-size: 20px; word-spacing: 8px;"> <i>The operator is a symbol that performs a specific operation between two operands, according to one definition. Operators serve as the foundation upon which logic is constructed in a program in a particular programming language. In every programming language, some operators perform several tasks.</i></p>
+	<ul> 
+		<li style="font-size: 20px; word-spacing: 8px; color: red;"> Arithmetic operators</li>
+		<li style="font-size: 20px; word-spacing: 8px; color: red;"> Comparison operators</li>
+		<li style="font-size: 20px; word-spacing: 8px; color: red;"> Assignment Operators</li>
+		<li style="font-size: 20px; word-spacing: 8px; color: red;"> Logical Operators</li>
+	</ul>
+	<h2>Arithmetic Operators</h2>
+	<p style="font-size: 20px; word-spacing: 8px;"> <i> Arithmetic operators used between two operands for a particular operation. There are many arithmetic operators. It includes the exponent (**) operator as well as the + (addition), - (subtraction), * (multiplication), / (divide), % (reminder), and // (floor division) operators.</i></p>
+	<h2>Comparison Operators</h2>
+	<p style="font-size:20px; word-spacing: 8px;"><i>Comparison operators mainly use for comparison purposes. Comparison operators compare the values of the two operands and return a true or false Boolean value in accordance. The example of comparison operators are ==, !=, <=, >=, >, <. </i></p>
+	<h2>Assigment Operators</h2>
+	<p style="font-size:20px; word-spacing: 8px;"><i>Using the assignment operators, the right expression's value is assigned to the left operand. There are some examples of assignment operators like =, +=, -=, *=, %=, **=, //=.</i></p>
+	<h2>Logical Operators</h2>
+	<p style="font-size:20px; word-spacing: 8px;"><i>The assessment of expressions to make decisions typically uses logical operators. The examples of logical operators are and, or, and not. In the case of logical AND, if the first one is 0, it does not depend upon the second one. In the case of logical OR, if the first one is 1, it does not depend on the second one.</i></p>
+	<img src="{% static '/images/ope1.png' %}" alt="Image not loaded">
+
+	<br>
+	<br>
+
+	<h1 style="color: rosybrown; background-color: mistyrose; " align="center" ><i> String</i></h1>
+	<p style="font-size: 20px; word-spacing: 8px;"> <i>A String is a data structure in Python Programming that represents a sequence of characters. It is an immutable data type, meaning that once you have created a string, you cannot change it. Python String are used widely in many different applications, such as storing and manipulating text data, representing names, addresses, and other types of data that can be represented as text</i></p>
+	<h2>Some function of string</h2>
+	<h2>Split()</h2>
+	<p style="font-size: 20px; word-spacing: 8px;"> <i>It make a list of words from a string. It splits on the basic of space.<br>line='This is python'<br>p=line.split()<br>print(p)</i></p>
+	<h2>Join</h2>
+	<p style="font-size: 20px; word-spacing: 8px;"> <i> It combine the words from list to make a string. we can use any letter to combine.</i></p>
+	<h2>Replace</h2>
+	<p style="font-size: 20px; word-spacing: 8px;"> <i> It replace any word or letter of string by other word or letter.<br>b='this is java'<br>print(b.replace('java','python'))</i></p>
+	<img src="{% static '/images/str.png' %}" alt="Image not loaded">
+
+
+	
+	
+</body>
+</html>

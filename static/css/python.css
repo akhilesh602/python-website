@@ -1,0 +1,42 @@
+p {
+	color: royalblue;
+	font-family: Arial;
+	font-size: 25px;
+}
+
+.right {
+	width: 1193px;
+	height: 110%;
+	position: absolute;
+	left: 320px;
+	top: 140px;
+	background-color: lavender;
+	word-spacing: 8px;
+}
+
+.left {
+	width: 310px;
+	height: 110%;
+	position: absolute;
+	left: 10px;
+	top:140px;
+	background-color: #33475b;
+	word-spacing: 8px;
+	color: whitesmoke;
+}
+
+/* unvisited link */
+a:visited {
+  color: floralwhite;
+  font-size: 40px;
+  padding: 100px;
+  letter-spacing: 15px;
+}
+
+
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
